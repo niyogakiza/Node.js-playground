@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acfb446e-bdef-48b4-aaf3-b635165c7113" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/playground/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="request.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/playground/request.js">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/playground/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="308">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -75,6 +75,7 @@
         <option value="$PROJECT_DIR$/playground/streams.js" />
         <option value="$PROJECT_DIR$/playground/promptPerson.js" />
         <option value="$PROJECT_DIR$/playground/request.js" />
+        <option value="$PROJECT_DIR$/playground/server.js" />
       </list>
     </option>
   </component>
@@ -159,26 +160,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.request.js">
-    <configuration name="Rename.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Rename.js" working-dir="$PROJECT_DIR$/playground" />
+  <component name="RunManager" selected="Node.js.server.js">
     <configuration name="promptPerson.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="promptPerson.js" working-dir="$PROJECT_DIR$/playground" />
     <configuration name="remove.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="remove.js" working-dir="$PROJECT_DIR$/playground" />
     <configuration name="request.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="request.js" working-dir="$PROJECT_DIR$/playground" />
+    <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/playground" />
     <configuration name="streams.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="streams.js" working-dir="$PROJECT_DIR$/playground" />
     <list>
-      <item itemvalue="Node.js.Rename.js" />
       <item itemvalue="Node.js.remove.js" />
       <item itemvalue="Node.js.streams.js" />
       <item itemvalue="Node.js.promptPerson.js" />
       <item itemvalue="Node.js.request.js" />
+      <item itemvalue="Node.js.server.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.server.js" />
         <item itemvalue="Node.js.request.js" />
         <item itemvalue="Node.js.promptPerson.js" />
         <item itemvalue="Node.js.streams.js" />
         <item itemvalue="Node.js.remove.js" />
-        <item itemvalue="Node.js.Rename.js" />
       </list>
     </recent_temporary>
   </component>
@@ -198,12 +199,12 @@
       <workItem from="1528459744992" duration="5458000" />
       <workItem from="1528723211386" duration="2875000" />
       <workItem from="1528803310770" duration="4696000" />
-      <workItem from="1528894275597" duration="1365000" />
+      <workItem from="1528894275597" duration="2341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55359000" />
+    <option name="totallyTimeSpent" value="56335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="121" y="23" width="1152" height="715" extended-state="0" />
@@ -212,7 +213,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="SvgViewer" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4252101" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2621849" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15135135" />
@@ -495,10 +496,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/playground/balack-obama.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/playground/request.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
+        <state relative-caret-position="274">
           <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
