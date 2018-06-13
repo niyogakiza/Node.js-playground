@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acfb446e-bdef-48b4-aaf3-b635165c7113" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/playground/fileServer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playground/public/birds.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playground/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playground/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/data/inventory.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/request.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fileServer.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/playground/fileServer.js">
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/playground/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+            <state relative-caret-position="374">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -81,6 +78,7 @@
         <option value="$PROJECT_DIR$/playground/request.js" />
         <option value="$PROJECT_DIR$/playground/server.js" />
         <option value="$PROJECT_DIR$/playground/fileServer.js" />
+        <option value="$PROJECT_DIR$/playground/api.js" />
       </list>
     </option>
   </component>
@@ -134,7 +132,7 @@
               <item name="nodePlayground" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodePlayground" type="462c0819:PsiDirectoryNode" />
               <item name="playground" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -175,26 +173,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.fileServer.js">
+  <component name="RunManager" selected="Node.js.api.js">
+    <configuration name="api.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="api.js" working-dir="$PROJECT_DIR$/playground" />
     <configuration name="fileServer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="fileServer.js" working-dir="$PROJECT_DIR$/playground" />
     <configuration name="promptPerson.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="promptPerson.js" working-dir="$PROJECT_DIR$/playground" />
     <configuration name="request.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="request.js" working-dir="$PROJECT_DIR$/playground" />
     <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/playground" />
-    <configuration name="streams.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="streams.js" working-dir="$PROJECT_DIR$/playground" />
     <list>
-      <item itemvalue="Node.js.streams.js" />
       <item itemvalue="Node.js.promptPerson.js" />
       <item itemvalue="Node.js.request.js" />
       <item itemvalue="Node.js.server.js" />
       <item itemvalue="Node.js.fileServer.js" />
+      <item itemvalue="Node.js.api.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.api.js" />
         <item itemvalue="Node.js.fileServer.js" />
         <item itemvalue="Node.js.server.js" />
         <item itemvalue="Node.js.request.js" />
         <item itemvalue="Node.js.promptPerson.js" />
-        <item itemvalue="Node.js.streams.js" />
       </list>
     </recent_temporary>
   </component>
@@ -214,12 +212,12 @@
       <workItem from="1528459744992" duration="5458000" />
       <workItem from="1528723211386" duration="2875000" />
       <workItem from="1528803310770" duration="4696000" />
-      <workItem from="1528894275597" duration="4376000" />
+      <workItem from="1528894275597" duration="5368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58370000" />
+    <option name="totallyTimeSpent" value="59362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="127" y="23" width="1152" height="715" extended-state="0" />
@@ -537,8 +535,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playground/fileServer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+        <state relative-caret-position="260">
+          <caret line="33" column="51" lean-forward="true" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/data/inventory.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
         </state>
       </provider>
     </entry>
