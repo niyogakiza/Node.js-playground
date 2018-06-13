@@ -29,7 +29,7 @@ const req = https.request(options, function(res){
     });
 
     res.on("end", function(){
-        fs.writeFile('balack-obama.html', responseBody, function(err){
+        fs.writeFile('index.html', responseBody, function(err){
             if(err){
                 throw err;
             } else {
