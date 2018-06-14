@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acfb446e-bdef-48b4-aaf3-b635165c7113" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/playground/httpster.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/express.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/public/js/dictionary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/public/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/playground/public/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="httpster.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/playground/httpster.js">
+      <file leaf-file-name="express.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/playground/express.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="103" selection-start-column="103" selection-end-column="103" />
+            <state relative-caret-position="231">
+              <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -82,6 +84,7 @@
         <option value="$PROJECT_DIR$/playground/api.js" />
         <option value="$PROJECT_DIR$/playground/formServer.js" />
         <option value="$PROJECT_DIR$/playground/httpster.js" />
+        <option value="$PROJECT_DIR$/playground/express.js" />
       </list>
     </option>
   </component>
@@ -95,10 +98,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
+    <option name="x" value="145" />
     <option name="y" value="23" />
     <option name="width" value="1267" />
-    <option name="height" value="712" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -131,6 +134,19 @@
               <item name="nodePlayground" type="462c0819:PsiDirectoryNode" />
               <item name="playground" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="nodePlayground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodePlayground" type="462c0819:PsiDirectoryNode" />
+              <item name="playground" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodePlayground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodePlayground" type="462c0819:PsiDirectoryNode" />
+              <item name="playground" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -149,12 +165,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.HTML" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/playground/public" />
-      <recent name="$PROJECT_DIR$/playground" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/playground/lib" />
+      <recent name="$PROJECT_DIR$/playground" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/playground/public" />
       <recent name="$PROJECT_DIR$/playground" />
     </key>
   </component>
@@ -170,26 +186,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.formServer.js">
+  <component name="RunManager" selected="Node.js.express.js">
     <configuration name="api.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="api.js" working-dir="$PROJECT_DIR$/playground" />
+    <configuration name="express.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="express.js" working-dir="$PROJECT_DIR$/playground" />
     <configuration name="fileServer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="fileServer.js" working-dir="$PROJECT_DIR$/playground" />
     <configuration name="formServer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="formServer.js" working-dir="$PROJECT_DIR$/playground" />
-    <configuration name="request.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="request.js" working-dir="$PROJECT_DIR$/playground" />
     <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/playground" />
     <list>
-      <item itemvalue="Node.js.request.js" />
       <item itemvalue="Node.js.server.js" />
       <item itemvalue="Node.js.fileServer.js" />
       <item itemvalue="Node.js.api.js" />
       <item itemvalue="Node.js.formServer.js" />
+      <item itemvalue="Node.js.express.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.express.js" />
         <item itemvalue="Node.js.formServer.js" />
         <item itemvalue="Node.js.api.js" />
         <item itemvalue="Node.js.fileServer.js" />
         <item itemvalue="Node.js.server.js" />
-        <item itemvalue="Node.js.request.js" />
       </list>
     </recent_temporary>
   </component>
@@ -210,22 +226,23 @@
       <workItem from="1528723211386" duration="2875000" />
       <workItem from="1528803310770" duration="4696000" />
       <workItem from="1528894275597" duration="6450000" />
-      <workItem from="1528978039766" duration="1108000" />
+      <workItem from="1528978039766" duration="5831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61552000" />
+    <option name="totallyTimeSpent" value="66275000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="23" width="1267" height="714" extended-state="0" />
+    <frame x="145" y="23" width="1267" height="709" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="SvgViewer" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26094276" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33106962" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26013514" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13714285" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="JSON Utils" order="3" />
@@ -318,13 +335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="155" selection-start-column="120" selection-end-column="155" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -557,8 +567,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playground/httpster.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="103" selection-start-column="103" selection-end-column="103" />
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/public/dictionary.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
         </state>
       </provider>
     </entry>
