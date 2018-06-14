@@ -9,7 +9,11 @@
   "author": "Aimable",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
     "lodash": "^4.17.4",
+    "underscore": "^1.9.1",
     "v8": "^0.1.0",
     "yargs": "^10.1.1"
   }
