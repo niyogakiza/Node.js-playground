@@ -1,5 +1,6 @@
 const expect = require("chai").expect;
 const tools = require("./lib/tools");
+const nock = require("nock");
 
 describe("Tools", () => {
     describe("printName()", () => {
@@ -11,9 +12,17 @@ describe("Tools", () => {
     });
 
     describe("loadWiki()", () => {
-        it("Load Abraham Lincoln's wikipedia page", () => {
+
+        before(() => {
+            nock('https://en.wikipedia.org')
+                .get("/wiki/Abraham_Lincoln")
+                .reply(200, 'Mock Abraham Lincoln Page');
+        });
+
+        it("Load Abraham Lincoln's wikipedia page", (done) => {
             tools.loadWiki({ first: "Abraham", last:"Lincoln"}, (html) => {
-                expect(html).to.be.ok;
+                expect(html).to.equal('Mock Abraham Lincoln Page');
+                done();
             })
         });
     });
